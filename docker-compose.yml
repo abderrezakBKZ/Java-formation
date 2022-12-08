@@ -4,6 +4,6 @@ services:
     container_name: formation
     build:
       dockerfile: Dockerfile
-    image: formation:latest
+    image: abderrezak.azurecr.io/formation:latest
     ports:
       - 8082:8080
