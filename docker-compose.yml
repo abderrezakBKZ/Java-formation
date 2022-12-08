@@ -1,0 +1,9 @@
+version: '1'
+services:
+  formation:
+    container_name: formation
+    build:
+      dockerfile: Dockerfile
+    image: formation:latest
+    ports:
+      - 8082:8080
