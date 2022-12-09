@@ -17,6 +17,6 @@ public class StudentService {
     }
 
     public Student bestStudent () {
-        return new Student("Angela", "Davids", Nationality.BRITISH);
+        return new Student("Youcef", "Davids", Nationality.BRITISH);
     }
 }
